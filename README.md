@@ -16,6 +16,7 @@
    - 파일명은 문제 번호 또는 문제 이름과 출처로 설정합니다.
    - 순서는 출처\_문제번호(문제이름)순으로 작성해주세요.
    - 파일 확장자는 사용한 프로그래밍 언어에 맞게 작성합니다. (`.js`, `.py`)
+   - 동일한 문제를 다른 사람이 풀 수 있기 때문에 자신임을 밝히는 정보(이름orID)도 파일에 포함시켜주세요!!
 
    ✅ 예시:
 
@@ -26,24 +27,24 @@
    📂 Medium
    ├── programmers_5678_solution.js
    📂 Easy
-   ├── two_sum.py
-   ├── 42_solution.js
+   ├── two_sum_chuck(이름 혹은 ID).py
+   ├── two_sum_chuck2(이름 혹은 ID).py
    ```
 
 3. **풀이 설명 문서 작성**
 
    - 코드와 동일한 폴더에 문제 풀이 과정을 설명하는 Markdown 파일을 작성합니다.
-   - 파일명은 `문제번호.md` 또는 `문제이름.md`로 설정합니다.
+   - 파일명은 2.풀이 코드 이름 작성법과 동일합니다.
    - 풀이 과정, 핵심 개념, 시간 복잡도 등을 설명합니다.
 
    ✅ 예시:
 
    ```
    📂 Hard
-   ├── 1234_solution.py
-   ├── 1234.md
-   ├── tricky_graph_problem.js
-   ├── tricky_graph_problem.md
+   ├── baekjoon_1234.py
+   ├── baekjoon_1234.md
+   ├── two_sum_chuck(이름 혹은 ID).js
+   ├── two_sum_chuck.md
    ```
 
 ### 📝 Markdown 작성 가이드
