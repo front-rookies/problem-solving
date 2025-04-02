@@ -12,11 +12,13 @@
 
 ## 💻 코드
 
-```python
-# 1234_solution.py
-
-def solve():
-    print("Hello, Algorithm!")
+```js
+while (n % i === 0) {
+    if (!result.includes(i)) {
+        result.push(i)
+    }
+    n /= i;
+}
 ```
 
 
