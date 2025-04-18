@@ -15,7 +15,6 @@ function solution(numbers) {
     if (path.length > 0) {
       numberSet.add(Number(path.join("")));
     }
-
     for (let i = 0; i < digits.length; i++) {
       if (!visited[i]) {
         visited[i] = true;
@@ -26,9 +25,7 @@ function solution(numbers) {
       }
     }
   };
-
   backtrack([]);
-
   let count = 0;
   for (const num of numberSet) {
     if (isPrime(num)) count++;
